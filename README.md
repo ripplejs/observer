@@ -19,7 +19,7 @@ var model = require('model');
 var ViewModel = model();
 
 // Create a new view-model object with these properties
-var model = new ViewModel{
+var model = new ViewModel({
   firstname: "Tom",
   lastname: "Dickson",
   items: [1, 2, 3],
